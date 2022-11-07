@@ -11,18 +11,16 @@
      <h3>Autor: Rafal Hyla</h3>
      <h4>Wszystkie prawa zastrzeżone</h4>
  </div>
+
+    {% for post in posts %}
+     <div>
+         <p>Opublikowany: {{ post.publish_date }}</p>
+         <h2><a href=""> {{ post.title }}</a></h2>
+         <em>{{ post.text|linebreaksbr }}</em>
+     </div>
+     {% endfor %}
  <div>
-     <p>To jest akapit</p>
-     <em>TO jest wyróżniony teskt</em><br>
-     <strong>Tu jest pogrubiony tekst</strong><br>
-     <a href="https://strefakursow.pl">LINK</a>
- </div>
- <div>
-     <ul>
-    <li>Element listy</li>
-    <li>Element listy</li>
-    <li>Element listy</li>
-    </ul>
+
  </div>
 </body>
 </html>
