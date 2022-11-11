@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5922ecd0-95ac-4ce5-b140-a2888961dc91" name="Changes" comment="Zmiana ustawien na stronie">
+    <list default="true" id="5922ecd0-95ac-4ce5-b140-a2888961dc91" name="Changes" comment="Zmiana ustawien html">
+      <change afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667755754272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zmiana ustawien html">
+      <created>1667861575300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667861575300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -107,6 +118,7 @@
     <MESSAGE value="Zmienilem ustawienia czasu ponownie na prawidłowe" />
     <MESSAGE value="Zmienilem ustawienia settings.py" />
     <MESSAGE value="Zmiana ustawien na stronie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zmiana ustawien na stronie" />
+    <MESSAGE value="Zmiana ustawien html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana ustawien html" />
   </component>
 </project>
